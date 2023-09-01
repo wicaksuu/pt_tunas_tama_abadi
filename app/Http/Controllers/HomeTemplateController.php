@@ -9,7 +9,7 @@ class HomeTemplateController extends Controller
     public function index()
     {
         $aplikasi = [
-            'logo' => url('/') . '/assets/images/logos/logo.png',
+            'logo' => url('/') . '/assets/images/logos/logos.png',
             'phone' => '822444566708',
             'facebook' => '',
             'instagram' => '',
@@ -143,7 +143,7 @@ class HomeTemplateController extends Controller
     public function about()
     {
         $aplikasi = [
-            'logo' => url('/') . '/assets/images/logos/logo.png',
+            'logo' => url('/') . '/assets/images/logos/logos.png',
             'phone' => '822444566708',
             'facebook' => '',
             'instagram' => '',
@@ -199,7 +199,7 @@ class HomeTemplateController extends Controller
     public function hasil_proyek()
     {
         $aplikasi = [
-            'logo' => url('/') . '/assets/images/logos/logo.png',
+            'logo' => url('/') . '/assets/images/logos/logos.png',
             'phone' => '822444566708',
             'facebook' => '',
             'instagram' => '',
@@ -267,7 +267,7 @@ class HomeTemplateController extends Controller
     public function kontak()
     {
         $aplikasi = [
-            'logo' => url('/') . '/assets/images/logos/logo.png',
+            'logo' => url('/') . '/assets/images/logos/logos.png',
             'phone' => '822444566708',
             'facebook' => '',
             'instagram' => '',
