@@ -9,7 +9,7 @@ class HomeTemplateController extends Controller
     public function index()
     {
         $aplikasi = [
-            'logo' => 'http://127.0.0.1:8000/assets/images/logos/logo.png',
+            'logo' => 'https://tunastamaabadi.com/assets/images/logos/logo.png',
             'phone' => '822444566708',
             'facebook' => '',
             'instagram' => '',
@@ -143,7 +143,7 @@ class HomeTemplateController extends Controller
     public function about()
     {
         $aplikasi = [
-            'logo' => 'http://127.0.0.1:8000/assets/images/logos/logo.png',
+            'logo' => 'https://tunastamaabadi.com/assets/images/logos/logo.png',
             'phone' => '822444566708',
             'facebook' => '',
             'instagram' => '',
@@ -199,7 +199,7 @@ class HomeTemplateController extends Controller
     public function hasil_proyek()
     {
         $aplikasi = [
-            'logo' => 'http://127.0.0.1:8000/assets/images/logos/logo.png',
+            'logo' => 'https://tunastamaabadi.com/assets/images/logos/logo.png',
             'phone' => '822444566708',
             'facebook' => '',
             'instagram' => '',
@@ -267,7 +267,7 @@ class HomeTemplateController extends Controller
     public function kontak()
     {
         $aplikasi = [
-            'logo' => 'http://127.0.0.1:8000/assets/images/logos/logo.png',
+            'logo' => 'https://tunastamaabadi.com/assets/images/logos/logo.png',
             'phone' => '822444566708',
             'facebook' => '',
             'instagram' => '',
