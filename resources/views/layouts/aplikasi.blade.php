@@ -21,7 +21,7 @@
 
     <title>{{ config('app.name', 'Laravel') }}</title>
 
-    <link rel=icon href="assets/images/favicon.png" sizes="20x20" type="image/png">
+<link rel=icon href="{{ url('/') }}/assets/images/favicons.png" sizes="20x20" type="image/png">
 
     <!-- Stylesheet -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
