@@ -13,7 +13,7 @@
     <meta property="og:title" content="PT. Tunas Tama Abadi">
     <meta property="og:description"
         content="Kami Adalah Perusahaan Cetak Berkualitas Tinggi Yang Beroprasi Di Kabupaten Madiun.">
-    <meta property="og:image" content="URL_Gambar_Untuk_Ditampilkan">
+<meta property="og:image" content="{{ url(/) }}/assets/mokeup.png">
     <meta property="og:url" content="https://tunastamaabadi.com">
     <meta name="twitter:card" content="summary_large_image">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
