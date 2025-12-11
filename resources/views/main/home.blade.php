@@ -82,7 +82,10 @@
                         </div>
                         <div class="col-sm-9 col-11">
                             <div class="about-video wow fadeInRight delay-0-6s">
-                                <img src="{{ $konten->about_3 }}" alt="About">
+                                <video class="w-100" controls style="border-radius: 8px;">
+                                    <source src="{{ $konten->videos['company_video_1'] }}" type="video/mp4">
+                                    <img src="{{ $konten->about_3 }}" alt="About">
+                                </video>
                             </div>
                         </div>
                     </div>

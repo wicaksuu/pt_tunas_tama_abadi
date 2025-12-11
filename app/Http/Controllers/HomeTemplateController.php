@@ -16,7 +16,7 @@ class HomeTemplateController extends Controller
             'twiter' => '',
             'tiktok' => '',
 
-            'deskripsi' => 'Kami adalah perusahaan yang bergerak pada bidang percetakan yang beralamat di kabupaten madiun',
+            'deskripsi' => 'Kami adalah perusahaan yang fokus bergerak di bidang perdagangan/pertokoan yang beralamat di kabupaten madiun',
             'alamat' => 'Jl. Raya Sidomulyo Wonoasri Rt.001 Rw.001 - Madiun (Kab.)',
             'email' => 'cs@tunastamaabadi.com',
 
@@ -24,115 +24,119 @@ class HomeTemplateController extends Controller
             'top_banner_text' => 'PT. Tunas Tama Abadi'
         ];
         $konten = [
-            'hero' => 'https://demo.webtend.net/html/printco/assets/images/hero/hero-right.jpg',
-            'hero1' => 'https://demo.webtend.net/html/printco/assets/images/hero/hero-1.png',
-            'hero2' => 'https://demo.webtend.net/html/printco/assets/images/hero/hero-2.png',
+            'hero' => '/assets/images/hero/hero-right.jpg',
+            'hero1' => '/assets/images/hero/hero-1.png',
+            'hero2' => '/assets/images/hero/hero-2.png',
 
             'text_red' => 'PT. Tunas Tama Abadi',
-            'text_bold' => 'Kami Adalah Perusahaan Cetak Berkualitas Tinggi',
-            'padding_text' => 'disisi lain kami mengedepankan keramahan dalam pelayanan',
-            'list_1' => 'Kualitas Pelayanan',
-            'list_2' => 'Kualitas Hasil Cetak dan Pengiriman',
+            'text_bold' => 'Toko Modern Melayani Seluruh Kebutuhan Anda',
+            'padding_text' => 'Kami menyediakan kebutuhan rumah tangga, sembako, alat listrik, dan jasa pembayaran tagihan dengan pelayanan prima',
+            'list_1' => 'Kualitas Pelayanan Terbaik',
+            'list_2' => 'Produk Terjamin dan Harga Terjangkau',
 
 
             'text_red2' => "Kami Menyediakan",
-            'text_bold2' => "Kategori Dalam Percetakan",
+            'text_bold2' => "Kategori Produk dan Layanan",
             'list_layanan' => [
                 [
-                    'icon' => 'flaticon-t-shirt',
-                    'nama' => 'T-Shart Print'
+                    'icon' => 'flaticon-merchandising',
+                    'nama' => 'Sembako'
                 ],
                 [
-                    'icon' => 'flaticon-logo',
-                    'nama' => 'Logo Design'
-                ],
-                [
-                    'icon' => 'flaticon-banner',
-                    'nama' => 'Banner Print'
-                ],
-                [
-                    'icon' => 'flaticon-reading-book',
-                    'nama' => 'Books Print'
-                ],
-                [
-                    'icon' => 'flaticon-debit-card',
-                    'nama' => 'Card Print'
-                ],
-                [
-                    'icon' => 'flaticon-award',
-                    'nama' => 'Trophy Print'
-                ],
-                [
-                    'icon' => 'flaticon-banner',
-                    'nama' => 'Banner Print'
-                ]
-            ],
-
-            'about_1' => 'https://demo.webtend.net/html/printco/assets/images/about/about-1.jpg',
-            'about_2' => 'https://demo.webtend.net/html/printco/assets/images/about/about-2.jpg',
-            'about_3' => 'https://demo.webtend.net/html/printco/assets/images/about/about-video.jpg',
-            'tentang' => 'Tentang Perusahaan',
-            'tentang_singkat' => 'PT. Tunas Tama Abadi',
-            'tahun' => '2',
-            'lanjutan_tahun' => 'Tahun Pengalaman Pada Bidang Percetakan Digital',
-            'deskripsi_singkat' => 'perusahaan yang beroperasi di bidang percetakan dengan fokus utama pada produksi beragam produk cetakan, seperti kaos, buku, banner, dan lain-lain. Sebagai perusahaan percetakan, PT Tunas Tama Abadi bertekad memberikan layanan berkualitas tinggi dalam mencetak produk yang kreatif dan bervariasi.',
-
-
-            'daftar_service' => 'Daftar Layanan',
-            'daftar_service_h1' => 'Pelayanan Terbaik Untuk Percetakan',
-            'daftar_service_h6' => 'Percetakan Tersertifikasi',
-            'daftar_service_p' => 'Buktikan Kualitas Layanan Kami',
-            'list_service' => [
-                [
-                    'icon' => 'flaticon-print',
-                    'h3' => 'Paper Printing',
-                    'p' => 'Percetakan kertas terbaik untuk semua dokumen anda, buktikan layanan kami'
-                ],
-                [
-                    'icon' => 'flaticon-3d-printer',
-                    'h3' => '3D Printing',
-                    'p' => 'Percetakan 3 dimensi terbaik untuk semua dokumen anda, buktikan layanan kami'
-                ],
-                [
-                    'icon' => 'flaticon-print-1',
-                    'h3' => 'Banner Printing',
-                    'p' => 'Percetakan banner terbaik untuk semua dokumen anda, buktikan layanan kami'
+                    'icon' => 'flaticon-clean-clothes',
+                    'nama' => 'Kebutuhan Rumah Tangga'
                 ],
                 [
                     'icon' => 'flaticon-focus',
-                    'h3' => 'Desain dan Branding',
-                    'p' => 'Jasa desain dan branding terbaik untuk semua dokumen anda, buktikan layanan kami'
+                    'nama' => 'Alat Listrik'
+                ],
+                [
+                    'icon' => 'flaticon-debit-card',
+                    'nama' => 'Pembayaran Tagihan'
+                ],
+                [
+                    'icon' => 'flaticon-network',
+                    'nama' => 'Paket Data'
+                ],
+                [
+                    'icon' => 'flaticon-card',
+                    'nama' => 'Perbankan/Leasing'
+                ],
+                [
+                    'icon' => 'flaticon-award',
+                    'nama' => 'Modal Penyertaan'
+                ]
+            ],
+
+            'about_1' => '/assets/images/about/about-1.jpg',
+            'about_2' => '/assets/images/about/about-2.jpg',
+            'about_3' => '/assets/images/about/about-video.jpg',
+            'tentang' => 'Tentang Perusahaan',
+            'tentang_singkat' => 'PT. Tunas Tama Abadi',
+            'tahun' => '2',
+            'lanjutan_tahun' => 'Tahun Pengalaman Melayani Kebutuhan Masyarakat',
+            'deskripsi_singkat' => 'Perusahaan yang beroperasi di bidang perdagangan/pertokoan dengan fokus utama pada perdagangan kebutuhan rumah tangga, sembako, alat listrik dan segala kebutuhan rumah tangga. Kami juga melayani jasa pembayaran berbagai tagihan, paket data, listrik, PAM dan perbankan/leasing. PT Tunas Tama Abadi bertekad memberikan layanan prima dan berkualitas tinggi dengan produk yang kreatif dan bervariasi.',
+
+
+            'daftar_service' => 'Daftar Layanan',
+            'daftar_service_h1' => 'Pelayanan Terbaik Untuk Kebutuhan Anda',
+            'daftar_service_h6' => 'Toko Modern Terpercaya',
+            'daftar_service_p' => 'Buktikan Kualitas Layanan Kami',
+            'list_service' => [
+                [
+                    'icon' => 'flaticon-merchandising',
+                    'h3' => 'Kebutuhan Rumah Tangga',
+                    'p' => 'Menyediakan berbagai kebutuhan rumah tangga dan sembako dengan kualitas terbaik'
+                ],
+                [
+                    'icon' => 'flaticon-focus',
+                    'h3' => 'Alat Listrik',
+                    'p' => 'Perlengkapan dan peralatan listrik berkualitas untuk kebutuhan Anda'
+                ],
+                [
+                    'icon' => 'flaticon-debit-card',
+                    'h3' => 'Pembayaran Tagihan',
+                    'p' => 'Layanan pembayaran listrik, PAM, paket data, dan perbankan/leasing'
+                ],
+                [
+                    'icon' => 'flaticon-award',
+                    'h3' => 'Modal Penyertaan',
+                    'p' => 'Kesempatan kemitraan investasi untuk konsumen aktif kami'
                 ]
             ],
             'last_project' => [
                 [
                     'id' => 1,
-                    'icon' => 'flaticon-tshirt',
-                    'image' => 'https://demo.webtend.net/html/printco/assets/images/projects/project8.jpg',
-                    'title' => 'Cetak Baju',
-                    'span' => 'Desain dan Cetak'
+                    'icon' => 'flaticon-merchandising',
+                    'image' => '/assets/images/projects/project8.jpg',
+                    'title' => 'Sembako Lengkap',
+                    'span' => 'Kebutuhan Harian'
                 ],
                 [
                     'id' => 2,
-                    'icon' => 'flaticon-credit-cards',
-                    'image' => 'https://demo.webtend.net/html/printco/assets/images/projects/project7.jpg',
-                    'title' => 'Kartu Bisnis',
-                    'span' => 'Desain dan Cetak'
+                    'icon' => 'flaticon-clean-clothes',
+                    'image' => '/assets/images/projects/project7.jpg',
+                    'title' => 'Perlengkapan Rumah',
+                    'span' => 'Peralatan Rumah Tangga'
                 ],
                 [
                     'id' => 3,
-                    'icon' => 'flaticon-tea-cup',
-                    'image' => 'https://demo.webtend.net/html/printco/assets/images/projects/project5.jpg',
-                    'title' => 'Mug Printing',
-                    'span' => 'Desain dan Cetak'
+                    'icon' => 'flaticon-focus',
+                    'image' => '/assets/images/projects/project5.jpg',
+                    'title' => 'Alat Listrik',
+                    'span' => 'Elektronik & Listrik'
                 ],
                 [
                     'id' => 4,
-                    'icon' => 'flaticon-book',
-                    'image' => 'https://demo.webtend.net/html/printco/assets/images/projects/project9.jpg',
-                    'title' => 'Cetak Buku',
-                    'span' => 'Desain dan Cetak'
+                    'icon' => 'flaticon-debit-card',
+                    'image' => '/assets/images/projects/project9.jpg',
+                    'title' => 'Layanan Pembayaran',
+                    'span' => 'Tagihan & Pulsa'
                 ]
+            ],
+            'videos' => [
+                'company_video_1' => '/assets/videos/company-video-01.mp4',
+                'company_video_2' => '/assets/videos/company-video-02.mp4'
             ],
         ];
 
@@ -150,7 +154,7 @@ class HomeTemplateController extends Controller
             'twiter' => '',
             'tiktok' => '',
 
-            'deskripsi' => 'Kami adalah perusahaan yang bergerak pada bidang percetakan yang beralamat di kabupaten madiun',
+            'deskripsi' => 'Kami adalah perusahaan yang fokus bergerak di bidang perdagangan/pertokoan yang beralamat di kabupaten madiun',
             'alamat' => 'Jl. Raya Sidomulyo Wonoasri Rt.001 Rw.001 - Madiun (Kab.)',
             'email' => 'cs@tunastamaabadi.com',
 
@@ -159,34 +163,38 @@ class HomeTemplateController extends Controller
         ];
         $konten = [
             'text_red' => 'PT. Tunas Tama Abadi',
-            'text_bold' => 'Kami Adalah Perusahaan Cetak Berkualitas Tinggi',
-            'padding_text' => 'perusahaan yang beroperasi di bidang percetakan dengan fokus utama pada produksi beragam produk cetakan, seperti kaos, buku, banner, dan lain-lain. Sebagai perusahaan percetakan, PT Tunas Tama Abadi bertekad memberikan layanan berkualitas tinggi dalam mencetak produk yang kreatif dan bervariasi.',
-            'visi' => 'Denounce with righteous indign and dislike men beguiled',
-            'misi' => 'Denounce with righteous indign and dislike men beguiled',
+            'text_bold' => 'Toko Modern Melayani Seluruh Kebutuhan Masyarakat',
+            'padding_text' => 'Perusahaan yang beroperasi di bidang perdagangan/pertokoan dengan fokus utama pada perdagangan kebutuhan rumah tangga, sembako, alat listrik dan segala kebutuhan rumah tangga. Kami juga melayani jasa pembayaran berbagai tagihan, paket data, listrik, PAM dan perbankan/leasing. PT Tunas Tama Abadi bertekad memberikan layanan prima dan berkualitas tinggi dengan produk yang kreatif dan bervariasi.',
+            'visi' => 'Terlengkap, tetap terbaik dan semakin terjangkau',
+            'misi' => 'Menciptakan toko berbasis modern yang melayani seluruh kebutuhan masyarakat dengan mengutamakan pelayanan prima, bersahabat dengan harga yang terjangkau',
 
             'pilih_kami' => 'Kenapa Memilih Kami',
-            'kata_pilih_kami' => 'Fitur-Fitur Unggulan Untuk Desain dan Layanan Percetakan',
+            'kata_pilih_kami' => 'Fitur-Fitur Unggulan Toko Modern Kami',
             'list_pilih_kami' => [
+                [
+                    'icon'  => 'flaticon-award',
+                    'title' => 'Produk Berkualitas',
+                    'sllug' => 'Barang yang kami sediakan terjamin kualitasnya melalui pengawasan berkala dengan sistem digitalisasi modern'
+                ],
                 [
                     'icon'  => 'flaticon-network',
                     'title' => 'Tim Profesional',
-                    'sllug' => 'kami memiliki tim yang mumpuni pada bisang nya'
+                    'sllug' => 'Kami memiliki tim yang mumpuni pada bidangnya'
                 ],
                 [
                     'icon'  => 'flaticon-air-plane',
                     'title' => 'Free Transport',
-                    'sllug' => 'Gratis biaya pengiriman, di seluruh wilayah Kabupaten Madiun'
+                    'sllug' => 'Gratis biaya pengiriman di seluruh wilayah Kabupaten Madiun'
                 ],
                 [
-                    'icon'  => 'flaticon-award',
-                    'title' => 'Kualitas Layanan',
-                    'sllug' => 'Kami mengedepankan layanan terbaik untuk anda'
+                    'icon'  => 'flaticon-target',
+                    'title' => 'Modal Penyertaan',
+                    'sllug' => 'Kesempatan kemitraan modal penyertaan untuk konsumen aktif kami'
                 ],
-                [
-                    'icon'  => 'flaticon-technical-support',
-                    'title' => 'Suport 24 jam',
-                    'sllug' => 'Tim kami siap melayani anda 24 jam selama 7 hari non stop'
-                ],
+            ],
+            'videos' => [
+                'company_video_1' => '/assets/videos/company-video-01.mp4',
+                'company_video_2' => '/assets/videos/company-video-02.mp4'
             ],
 
         ];
@@ -206,7 +214,7 @@ class HomeTemplateController extends Controller
             'twiter' => '',
             'tiktok' => '',
 
-            'deskripsi' => 'Kami adalah perusahaan yang bergerak pada bidang percetakan yang beralamat di kabupaten madiun',
+            'deskripsi' => 'Kami adalah perusahaan yang fokus bergerak di bidang perdagangan/pertokoan yang beralamat di kabupaten madiun',
             'alamat' => 'Jl. Raya Sidomulyo Wonoasri Rt.001 Rw.001 - Madiun (Kab.)',
             'email' => 'cs@tunastamaabadi.com',
 
@@ -216,43 +224,43 @@ class HomeTemplateController extends Controller
         $konten = [
             'last_project' => [
                 [
-                    'image' => 'https://demo.webtend.net/html/printco/assets/images/projects/project1.jpg',
-                    'title' => 'Kartu Bisnis',
+                    'image' => '/assets/images/projects/project1.jpg',
+                    'title' => 'Sembako & Kebutuhan Harian',
                     'kategori'  =>
                     [
                         [
-                            'kode' => 'logoo',
-                            'title' => 'Desain Logo'
+                            'kode' => 'sembako',
+                            'title' => 'Sembako'
                         ],
                         [
-                            'kode' => 'branding',
-                            'title' => 'Branding'
+                            'kode' => 'rumah-tangga',
+                            'title' => 'Kebutuhan Rumah Tangga'
                         ]
                     ],
                 ],
                 [
-                    'image' => 'https://demo.webtend.net/html/printco/assets/images/projects/project2.jpg',
-                    'title' => 'Cetak Baju',
+                    'image' => '/assets/images/projects/project2.jpg',
+                    'title' => 'Alat Listrik & Elektronik',
                     'kategori'  =>
                     [
                         [
-                            'kode' => 'tshirt',
-                            'title' => 'Cetak Baju'
+                            'kode' => 'listrik',
+                            'title' => 'Alat Listrik'
                         ],
                     ],
                 ],
                 [
-                    'image' => 'https://demo.webtend.net/html/printco/assets/images/projects/project3.jpg',
-                    'title' => 'Kartu Bisnis',
+                    'image' => '/assets/images/projects/project3.jpg',
+                    'title' => 'Layanan Pembayaran',
                     'kategori'  =>
                     [
                         [
-                            'kode' => 'logoo',
-                            'title' => 'Desain Logo'
+                            'kode' => 'pembayaran',
+                            'title' => 'Pembayaran Tagihan'
                         ],
                         [
-                            'kode' => 'branding',
-                            'title' => 'Branding'
+                            'kode' => 'pulsa',
+                            'title' => 'Paket Data & Pulsa'
                         ],
                     ],
                 ],
@@ -274,7 +282,7 @@ class HomeTemplateController extends Controller
             'twiter' => '',
             'tiktok' => '',
 
-            'deskripsi' => 'Kami adalah perusahaan yang bergerak pada bidang percetakan yang beralamat di kabupaten madiun',
+            'deskripsi' => 'Kami adalah perusahaan yang fokus bergerak di bidang perdagangan/pertokoan yang beralamat di kabupaten madiun',
             'alamat' => 'Jl. Raya Sidomulyo Wonoasri Rt.001 Rw.001 - Madiun (Kab.)',
             'email' => 'cs@tunastamaabadi.com',
 

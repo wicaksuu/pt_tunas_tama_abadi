@@ -33,6 +33,77 @@
     <link rel="stylesheet" href="assets/css/flaticon.min.css">
     <link rel="stylesheet" href="assets/css/slick.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Video Player Custom Styles -->
+    <style>
+        /* Video Player Styling */
+        .video-player {
+            position: relative;
+            width: 100%;
+            background-color: #000;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .video-player video {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .video-container {
+            position: relative;
+            width: 100%;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .video-container video {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        /* Video Showcase Section */
+        .video-showcase-area {
+            position: relative;
+        }
+
+        .video-content {
+            padding: 0 30px;
+        }
+
+        .video-content h3 {
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 20px;
+            color: #222;
+        }
+
+        .video-content p {
+            font-size: 16px;
+            line-height: 1.8;
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .video-content {
+                padding: 0;
+                margin-top: 30px;
+            }
+
+            .video-content h3 {
+                font-size: 24px;
+            }
+
+            .video-player {
+                margin-bottom: 30px;
+            }
+        }
+    </style>
 </head>
 
 <body>
